@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'/>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+    <img src="./img/iconfinder_monkey_4591885.svg" alt="todo-ape">
+    <div class="container">
+        <form class="todo-form" id="todo-form">
+            <div class="field">
+                <input type="text" placeholder="Type in your todo...">
+                <button type="submit" class="btn-add"><span><i class="fas fa-plus"></i></span></button>
+            </div>
+        </form>
+        <div class="todo-container">
+            <div class="tabs">
+                <div class="tab active"><p>All</p> <span><i class="fas fa-clipboard-list"></i></span></div>
+                <div class="tab"><p>Pending</p> <span><i class="fas fa-balance-scale"></i></span></div>
+                <div class="tab"><p>Completed</p> <span><i class="fas fa-check"></i></span></div>
+            </div>
+            <ul class="list">
+                <li class="list-item">
+                    <div class="text" style="color: #999;">No todo's</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js'></script>
+    <script defer src="./js/main.min.js"></script>
+    <script defer src="./js/tab.min.js"></script>
+    <script defer src="./js/animation-handler.min.js"></script>
+</body>
+</html>
