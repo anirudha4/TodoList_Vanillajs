@@ -1,7 +1,7 @@
-#TODOAPE
+# TODOAPE
 TodoApe is todolist application which uses your browser localstorage for storing your todos.
 
-##Live preview
+## Live preview
 www.todoape.netlify.app
 
 
